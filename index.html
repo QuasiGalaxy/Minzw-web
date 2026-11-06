@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0a09">
+  <meta name="description" content="闵志武的个人作品集。计算机科学 × 水利工程，以 AI、代码和好奇心解决真实问题。">
+  <meta property="og:title" content="闵志武 · Code, water & curiosity.">
+  <meta property="og:description" content="计算机科学 × 水利工程。把好奇心写成代码，把想法变成现实。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://min-zhiwu-portfolio.tallcrab4.chatgpt.site">
+  <title>闵志武 · Code, water & curiosity.</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/anton.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳转到正文</a>
+  <svg class="svg-library" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><defs>
+    <symbol id="spark" viewBox="0 0 100 100"><path d="M50 2 58 31 79 10 70 39 99 42 72 54 91 78 62 68 56 99 45 72 20 91 31 62 1 55 29 44 9 20 39 31Z" fill="currentColor"/></symbol>
+    <symbol id="droplet" viewBox="0 0 100 120"><path d="M50 4C44 24 12 49 12 76a38 38 0 0 0 76 0C88 49 56 24 50 4Z" fill="currentColor"/><path d="M26 74c2-10 8-17 12-20" stroke="#f3f0bd" stroke-width="5" fill="none" stroke-linecap="round"/><ellipse cx="44" cy="79" rx="4" ry="6" fill="#101212"/><ellipse cx="64" cy="79" rx="4" ry="6" fill="#101212"/><path d="M47 94q8 5 14-2" stroke="#101212" stroke-width="3" fill="none" stroke-linecap="round"/></symbol>
+    <symbol id="arrow" viewBox="0 0 24 24"><path d="M4 20 20 4M4 4h16v16" fill="none" stroke="currentColor" stroke-width="1.7"/></symbol>
+  </defs></svg>
+  <header class="site-header">
+    <a href="#home" class="brand" aria-label="闵志武，回到首页"><svg viewBox="0 0 70 80" aria-hidden="true"><path d="M34 4C30 18 9 33 9 51a26 26 0 0 0 52 0C61 33 39 18 34 4Z" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="m17 56 5-16 11 18 12-18 7 16M25 67q11 8 21-3" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="m38 4 9 10M20 12l-7-4M53 27l7-4" stroke="currentColor" stroke-width="2"/></svg></a>
+    <a class="header-name" href="#about">MIN ZHIWU <span>© 2026</span></a>
+    <a class="header-work text-link" href="#work">作品 <span>↗</span></a>
+  </header>
+  <main id="main">
+    <section id="home" class="hero" aria-label="闵志武的个人主页">
+      <div class="hero-copy">
+        <h1><span class="hero-line">building <span class="inline-object chip" aria-hidden="true"><i></i><b>AI</b></span> <em>things.</em></span><span class="hero-line">solving <strong>real</strong> problems.</span><span class="hero-line">with <em>code</em> &amp; <span class="inline-object drop" aria-hidden="true"><svg><use href="#droplet"/></svg></span> <strong>curiosity.</strong></span></h1>
+      </div>
+      <div class="lanyard" id="lanyard">
+        <svg class="lanyard-rope" aria-hidden="true"><defs><linearGradient id="strap-shade" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1400" y2="0"><stop offset="0" stop-color="#323330"/><stop offset=".3" stop-color="#252623"/><stop offset=".8" stop-color="#252623"/><stop offset="1" stop-color="#363732"/></linearGradient></defs><path id="rope-shadow"/><path id="rope"/><path id="rope-seam"/></svg>
+        <button type="button" id="badge" class="badge" aria-label="拖动我的吊牌。方向键摆动，回车翻面。" aria-describedby="badge-help">
+          <span class="badge-connector" aria-hidden="true"><i></i></span>
+          <span class="badge-rotator" id="badge-rotator">
+            <span class="badge-face badge-front">
+              <span class="badge-hole"></span><span class="badge-edition">CURIOUS BY NATURE.</span>
+              <span class="badge-name">闵志武<span>min zhiwu</span></span>
+              <svg class="badge-mascot" viewBox="0 0 190 154" aria-hidden="true"><g stroke="#102725" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"><path d="M59 109q-14 16-25 12l-6-7M133 108q14 17 28 9" fill="none"/><path d="M65 126 58 145 40 145M118 126l10 19h17" fill="none"/><path d="M96 10C82 34 48 62 48 88c0 33 22 47 48 47s48-14 48-47c0-26-35-55-48-78Z" fill="#f3f0bd"/><path d="M57 83q-17-22-27-15l-4 11 9 3 18 20M138 82q16-25 28-16l3 10-10 5-17 20" fill="#f3f0bd"/><rect x="62" y="73" width="29" height="21" rx="8" fill="#102725"/><rect x="99" y="73" width="29" height="21" rx="8" fill="#102725"/><path d="M91 80h8M72 77l8 10M109 77l8 10" stroke="#59b4d7"/><path d="M80 107q16 12 29-2" fill="none"/><path d="m87 40 10-17" stroke="#fffce3" stroke-width="5"/></g><path d="m20 29 3 9 9 3-9 3-3 10-3-10-9-3 9-3ZM157 20l2 6 7 2-7 3-2 7-3-7-7-3 7-2Z" fill="#f3f0bd"/></svg>
+              <span class="badge-bottom">CODE · WATER · CURIOSITY<span>2026 / ∞</span></span>
+              <span class="badge-gloss"></span>
+            </span>
+            <span class="badge-face badge-back">
+              <span class="badge-hole"></span><img src="assets/portrait.webp" alt="" width="480" height="672" draggable="false">
+              <span class="badge-back-name">你好，我是闵志武。</span><span class="badge-back-role">计算机科学 × 水利工程</span><span class="badge-back-note">对 AI 好奇。<br>为真实问题写代码。</span><span class="badge-back-bottom">LET’S BUILD SOMETHING.</span>
+            </span>
+          </span>
+        </button>
+      </div>
+      <span class="drag-note" id="badge-help">拖一下，认识我 <svg viewBox="0 0 70 40" aria-hidden="true"><path d="M2 8q45-15 62 23m-18-5 18 5-2-17" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
+      <a class="hero-about text-link" href="#about">关于我 ↗</a>
+      <a class="scroll-cue" href="#intro" aria-label="向下浏览"><svg viewBox="0 0 28 20"><path d="m3 4 11 11L25 4"/></svg></a>
+      <a class="hero-contact text-link" href="#contact">聊聊 <span>↗</span></a>
+    </section>
+
+    <section class="intro section-pad" id="intro">
+      <p class="intro-copy reveal"><span class="asterisk">*</span> 我是<span class="cream">闵志武</span>，一个把<span class="blue">计算机科学</span>带进<span class="red">水利工程</span>的人。<br>从机器视觉到洪涝预测，从一行代码到真实的系统。<span class="intro-seriff">好奇心驱动我探索，</span><br><span class="cream">解决实际问题，让我乐在其中。</span></p>
+      <div class="discipline-line reveal"><span>人工智能</span><svg><use href="#spark"/></svg><span>数值模拟</span><svg><use href="#spark"/></svg><span>GPU 计算</span><svg><use href="#spark"/></svg><span>系统开发</span></div>
+    </section>
+
+    <section class="work-section" id="work">
+      <div class="section-title section-pad"><h2>selected works<span class="red">*</span></h2><span class="section-index">01—03 / 2024—2026</span></div>
+      <article class="project project-flood section-pad" id="flood">
+        <button class="project-visual flood-visual" data-project="flood" aria-label="查看城市洪涝迷宫 · AI 最优解项目">
+          <img src="assets/flood-city.svg" alt="城市路网、水流与救援路径的概念示意图" width="1400" height="850" loading="lazy">
+          <span class="visual-top"><span>URBAN FLOOD LAB</span><span>11 / 2025</span></span>
+          <span class="visual-title">finding a way.<br><i>when it matters.</i></span><span class="visual-award">挑战杯<br><b>国家一等奖 ↗</b></span>
+          <span class="visual-note">概念视觉 · 城市内涝应急路径规划</span><span class="project-open"><svg><use href="#arrow"/></svg></span>
+        </button>
+        <div class="project-info"><div><p class="project-category">AI / 水动力模型 / 路径规划</p><button class="project-title" data-project="flood">城市洪涝迷宫 · AI 最优解 <span>↗</span></button></div><p class="project-summary">让预测更快，让救援更近。<br>用 CNN + BiGRU 连接水动力模拟与应急路径规划。</p><span class="project-year">2025</span></div>
+      </article>
+      <div class="project-pair section-pad">
+        <article class="project" id="vision">
+          <button class="project-visual vision-visual" data-project="vision" aria-label="查看智能车视觉感知与避障系统项目">
+            <span class="visual-top"><span>COMPUTER VISION</span><span>02 / 2024</span></span>
+            <span class="vision-display"><span class="terminal-bar"><i></i><i></i><i></i><span>vision / tracking.py</span></span><img src="assets/vehicle-original.jpg" alt="论文中的智能车目标跟踪测试画面" width="452" height="320" loading="lazy"><span class="terminal-footer"><span class="status-dot"></span> TARGET TRACKING <b>ACTIVE</b></span></span>
+            <span class="vision-cross cross-a">+</span><span class="vision-cross cross-b">+</span><span class="vision-caption">see. think. move.</span><span class="project-open"><svg><use href="#arrow"/></svg></span>
+          </button>
+          <div class="project-info"><div><p class="project-category">OpenCV / Raspberry Pi / PID</p><button class="project-title" data-project="vision">让小车看懂世界 <span>↗</span></button></div><span class="project-year">2024</span></div>
+        </article>
+        <article class="project" id="simulation">
+          <button class="project-visual simulation-visual" data-project="simulation" aria-label="查看城市动态更新雨洪数值模拟项目">
+            <img src="assets/water-grid.svg" alt="雨洪动态分区的概念网格示意图" width="800" height="850" loading="lazy">
+            <span class="visual-top"><span>ADAPTIVE SIMULATION</span><span>03 / 2026</span></span><span class="simulation-title">cities change.<br><i>models should, too.</i></span><span class="visual-note">概念视觉 · 动态分区</span><span class="project-open"><svg><use href="#arrow"/></svg></span>
+          </button>
+          <div class="project-info"><div><p class="project-category">Python / SWMM / 数值模拟</p><button class="project-title" data-project="simulation">跟上城市变化的模型 <span>↗</span></button></div><span class="project-year">进行中</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-section section-pad" id="about">
+      <div class="about-heading"><span class="eyebrow">THE PERSON BEHIND THE CODE</span><h2>好奇，不设边界<span class="blue">。</span></h2></div>
+      <div class="about-content"><figure class="portrait-wrap reveal"><img src="assets/portrait.webp" alt="闵志武" width="480" height="672" loading="lazy"><figcaption><span>闵志武</span><span>MIN ZHIWU ↗</span></figcaption><span class="portrait-sticker"><svg><use href="#spark"/></svg></span></figure><div class="about-text reveal"><p class="about-lead">计算机出身，<br>在水利工程里继续探索 AI。</p><p>本科读计算机科学与技术，现在是江西水利电力大学水利工程专业的硕士研究生。我喜欢理解一个问题的底层逻辑，再动手把它做出来。</p><p>从智能车的视觉感知，到城市洪涝情境下的预测与救援路径规划，我一直在做同一件事：让技术走出屏幕，解决现实中的问题。</p><p class="personal-note">“解决真实的问题，才是学习各种技术的原本动力。”</p><a class="pill-link" href="assets/min-zhiwu-resume.pdf" download="闵志武-个人简历.pdf">下载完整简历 <span>↓</span></a><div class="tools-list" aria-label="技术栈"><span>Python</span><span>C++</span><span>PyTorch</span><span>CUDA</span><span>NumPy</span><span>OpenCV</span><span>SWMM</span><span>Git</span></div></div></div>
+    </section>
+
+    <section class="journey-section section-pad" aria-label="教育、经历与成果">
+      <div class="journey-column reveal"><h2>the journey<span class="blue">↘</span></h2><div class="journey-row"><span class="date">2024 — 2027</span><div><h3>江西水利电力大学</h3><p>水利工程 · 硕士研究生</p></div></div><div class="journey-row"><span class="date">2020 — 2024</span><div><h3>武昌首义学院</h3><p>计算机科学与技术 · 学士</p></div></div><div class="journey-row"><span class="date">2025.10 — 11</span><div><h3>江西省水利科学院</h3><p>模型接口技术开发 · 实习</p><p class="journey-detail">参与 6 座水库下游洪水风险图编制与结果质检。</p></div></div></div>
+      <div class="honors-column reveal"><h2>a few milestones<span class="red">*</span></h2><div class="honor"><span>01</span><div><h3>“挑战杯”国家一等奖</h3><p>第十九届揭榜挂帅擂台赛 · 项目负责人</p></div><svg><use href="#spark"/></svg></div><div class="honor"><span>02</span><div><h3>国家奖学金</h3><p>2025—2026 学年</p></div></div><div class="honor"><span>03</span><div><h3>让研究留下成果</h3><p>第一作者 EI 会议论文 1 篇 · 共同作者 CSCD 论文 2 篇</p><p>参与软件著作权 1 项 · 发明专利 1 项（公开审查中）</p></div></div></div>
+    </section>
+
+    <footer class="contact-section" id="contact">
+      <div class="contact-inner section-pad">
+      <div class="contact-top"><span><i class="status-dot"></i> 欢迎交流与工作机会</span><a href="assets/min-zhiwu-resume.pdf" download="闵志武-个人简历.pdf">简历 PDF ↓</a></div>
+      <button class="contact-title" type="button" data-copy-contact="email" aria-label="复制邮箱，与我联系">let’s make<br><span>something</span> <svg><use href="#arrow"/></svg></button>
+      <div class="contact-bottom">
+        <div class="contact-methods" aria-label="联系方式">
+          <button type="button" data-copy-contact="email" aria-label="复制邮箱">邮箱</button>
+          <button type="button" data-copy-contact="wechat" aria-label="复制微信">微信</button>
+          <button type="button" data-copy-contact="qq" aria-label="复制QQ">QQ</button>
+        </div>
+        <p>用代码解决问题，带着好奇心前行。</p><a class="back-top" href="#home">回到顶部 ↑</a>
+      </div>
+      <div class="colophon"><span>© 2026 闵志武</span><span>MADE WITH CURIOSITY.</span><button id="motion-toggle" type="button" aria-pressed="false">动效：开启</button></div>
+      </div>
+      <div class="email-marquee">
+        <button class="email-marquee-button" type="button" data-copy-contact="email" aria-label="复制底部滚动邮箱">
+          <span class="email-marquee-track" aria-hidden="true">
+            <span class="email-marquee-group"><span>19979064939@163.com</span><span class="email-marquee-star">✳</span><span>19979064939@163.com</span><span class="email-marquee-star">✳</span></span>
+            <span class="email-marquee-group"><span>19979064939@163.com</span><span class="email-marquee-star">✳</span><span>19979064939@163.com</span><span class="email-marquee-star">✳</span></span>
+          </span>
+        </button>
+      </div>
+    </footer>
+  </main>
+  <dialog id="project-dialog" class="project-dialog" aria-labelledby="dialog-title"><button class="dialog-close" aria-label="关闭项目详情">关闭 ×</button><div id="dialog-content"></div></dialog>
+  <div class="toast" role="status" id="toast"></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+</body>
+</html>
